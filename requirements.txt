@@ -7,5 +7,4 @@ python-dotenv
 ipykernel
 langchain==0.1.9
 langchain-pinecone==0.0.3
-pinecone-client[grpc]==3.0.0
-#-e .
+-e .
