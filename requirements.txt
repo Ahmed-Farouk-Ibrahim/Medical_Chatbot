@@ -1,9 +1,11 @@
 ctransformers==0.2.5
 sentence-transformers==2.2.2
-pinecone-client
-langchain==0.0.225
+pinecone-client>=2.2.0
 flask
 pypdf
 python-dotenv
 ipykernel
+langchain==0.1.9
+langchain-pinecone==0.0.3
+pinecone-client[grpc]==3.0.0
 #-e .
