@@ -7,4 +7,7 @@ python-dotenv
 ipykernel
 langchain==0.1.9
 langchain-pinecone==0.0.3
+# LangChainDeprecationWarning: Importing document loaders from langchain is deprecated. 
+# Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead
+langchain-community
 -e .
