@@ -28,14 +28,3 @@ def text_split(extracted_data):
 def download_hugging_face_embeddings():
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     return embeddings
-
-# Example usage:
-if __name__ == "__main__":
-    data_path = "resources/"  # Path to your PDF documents
-    extracted_data = load_pdf(data_path)  # Load PDF documents
-    text_chunks = text_split(extracted_data)  # Split text into chunks
-    print("Number of text chunks:", len(text_chunks))
-
-    embeddings = download_hugging_face_embeddings()  # Initialize embeddings
-    query_result = embeddings.embed_query("How are you?")
-    print("Query embedding length:", len(query_result))
