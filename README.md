@@ -83,14 +83,14 @@ open up localhost:
 Firstly, we test out the model by asking a relevant clinical medicine question: 
 
 <p align="center">
-<image src="{{ url_for('static', filename='Screenshot1.png') }}" width="500">
+<image src="static/Screenshot1.png" width="500">
 </p>
 
 
 Now, we ask it a random/irrelevant question:
 
 <p align="center">
-<image src="{{ url_for('static', filename='Screenshot2.png') }}" width="500">
+<image src="static/Screenshot2.png" width="500">
 </p>
 
 ## Note
