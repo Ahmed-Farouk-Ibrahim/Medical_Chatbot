@@ -80,22 +80,19 @@ open up localhost:
 
 ## Results
 
-Firstly, we test out the model by asking a relevant clinical medicine question: 
+The model was initially evaluated by asking a relevant medical question:
 
 <p align="center">
 <image src="static/Screenshot1.png" width="500">
 </p>
 
 
-Now, we ask it a random/irrelevant question:
+Subsequently, an unrelated question was posed to test the model's response:
 
 <p align="center">
 <image src="static/Screenshot2.png" width="500">
 </p>
 
-## Note
+## Notes :
 
-1. The model sometimes may take about 4 mins to respond, so kindly be patient.
-
-2. For guidance refer to this link [Chatbot](https://www.youtube.com/watch?v=Fe5B90R8DTg&t=2021s)   
-
+1. The model's response sometimes may take up to 4 minutes. Your patience is appreciated.
