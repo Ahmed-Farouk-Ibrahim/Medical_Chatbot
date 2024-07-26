@@ -1,7 +1,9 @@
 # Medical Chatbot using Llama2 nd Pinecone
 This repository contains the implementation of a medical chatbot leveraging the LLaMA 2 model. The chatbot extracts data from a PDF file, processes it, and responds to medical inquiries using LangChain, Hugging Face, and Pinecone.
 
-
+<p align="center">
+<image src="static/Screenshot1.png">
+</p>
 
 ## Features
 - Medical Knowledge Base: Extracts and organizes information from a medical PDF.
@@ -83,14 +85,14 @@ open up localhost:
 The model was initially evaluated by asking a relevant medical question:
 
 <p align="center">
-<image src="static/Screenshot1.png" width="500">
+<image src="static/Screenshot1.png">
 </p>
 
 
 Subsequently, an unrelated question was posed to test the model's response:
 
 <p align="center">
-<image src="static/Screenshot2.png" width="500">
+<image src="static/Screenshot2.png">
 </p>
 
 ## Notes :
